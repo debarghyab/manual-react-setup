@@ -1,11 +1,11 @@
 {
-  "name": "ip-address-tracker-master",
+  "name": "manual-react-app",
   "version": "1.0.0",
-  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "description": "React App created manually",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server --config webpack.config.js --host 0.0.0.0. --port 8081 --hot",
-    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.js ",
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
     "test": "jest"
   },
   "author": "debarghyab",
